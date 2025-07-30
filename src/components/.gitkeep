@@ -1,0 +1,15 @@
+# This folder is for your React components
+# 
+# It's created empty so you can organize your components as you prefer
+# Example structure:
+# 
+# components/
+# ├── ui/
+# │   ├── Button.jsx
+# │   └── Modal.jsx
+# ├── layout/
+# │   ├── Header.jsx
+# │   └── Footer.jsx
+# └── features/
+#     ├── UserProfile.jsx
+#     └── Dashboard.jsx
