@@ -7,6 +7,7 @@ Your streamlined React template now includes multiple variants:
 🔹 **Main Branch** - Minimal JavaScript setup  
 🔷 **TypeScript Branch** - Full TypeScript configuration  
 🧭 **Router Branch** - React Router with navigation  
+🚀 **TypeScript-Router Branch** - Complete setup with both TypeScript and routing  
 
 Choose the variant that best fits your project needs!
 
@@ -93,20 +94,41 @@ npm install --save-dev eslint prettier eslint-plugin-react
 ✅ **Available Branches:**
 
 ```bash
+# Main branch - Minimal JavaScript setup
+git clone https://github.com/charliewatson1504/streamlined-react-template.git my-basic-project
+
 # TypeScript variant - Full TypeScript setup with type checking
 git clone -b typescript https://github.com/charliewatson1504/streamlined-react-template.git my-ts-project
 
 # React Router variant - Multi-page app with navigation
 git clone -b router https://github.com/charliewatson1504/streamlined-react-template.git my-router-project
 
-# Main branch - Minimal JavaScript setup
-git clone https://github.com/charliewatson1504/streamlined-react-template.git my-basic-project
+# TypeScript + Router combined - Best of both worlds!
+git clone -b typescript-router https://github.com/charliewatson1504/streamlined-react-template.git my-full-project
 ```
 
 **Variant Features:**
 - **Main**: Minimal React + Vite setup
 - **TypeScript**: Adds TypeScript, tsconfig, type checking
 - **Router**: Adds React Router, pages, navigation component
+- **TypeScript-Router**: Complete setup with TypeScript + routing + navigation
+
+## 🔄 Using Multiple Variants Together
+
+**Want both TypeScript AND React Router?** 
+
+✅ **Use the combined branch** (recommended):
+```bash
+git clone -b typescript-router https://github.com/charliewatson1504/streamlined-react-template.git my-project
+```
+
+**Or combine manually**:
+1. Start with TypeScript variant (affects entire codebase)
+2. Add React Router features:
+   ```bash
+   npm install react-router-dom @types/react-router-dom
+   # Then manually add routing components from the router branch
+   ```
 
 ## 📁 Current Project Structure
 
