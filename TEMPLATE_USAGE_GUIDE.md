@@ -7,7 +7,7 @@ Your streamlined React template now includes multiple variants:
 🔹 **Main Branch** - Minimal JavaScript setup  
 🔷 **TypeScript Branch** - Full TypeScript configuration  
 🧭 **Router Branch** - React Router with navigation  
-🚀 **TypeScript-Router Branch** - Complete setup with both TypeScript and routing  
+🚀 **TypeScript-Router Branch** - Complete setup with both TypeScript and routing
 
 Choose the variant that best fits your project needs!
 
@@ -108,6 +108,7 @@ git clone -b typescript-router https://github.com/charliewatson1504/streamlined-
 ```
 
 **Variant Features:**
+
 - **Main**: Minimal React + Vite setup
 - **TypeScript**: Adds TypeScript, tsconfig, type checking
 - **Router**: Adds React Router, pages, navigation component
@@ -115,14 +116,16 @@ git clone -b typescript-router https://github.com/charliewatson1504/streamlined-
 
 ## 🔄 Using Multiple Variants Together
 
-**Want both TypeScript AND React Router?** 
+**Want both TypeScript AND React Router?**
 
 ✅ **Use the combined branch** (recommended):
+
 ```bash
 git clone -b typescript-router https://github.com/charliewatson1504/streamlined-react-template.git my-project
 ```
 
 **Or combine manually**:
+
 1. Start with TypeScript variant (affects entire codebase)
 2. Add React Router features:
    ```bash
