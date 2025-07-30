@@ -43,19 +43,16 @@ Create your components in the `src/components/` directory:
 ```jsx
 // src/components/Button.jsx
 function Button({ children, onClick }) {
-  return (
-    <button onClick={onClick}>
-      {children}
-    </button>
-  )
+  return <button onClick={onClick}>{children}</button>;
 }
 
-export default Button
+export default Button;
 ```
 
 ## Styling
 
 This template includes a minimal CSS reset. Add your styles to:
+
 - `src/index.css` - Global styles
 - Component-specific CSS files
 - Or use your preferred styling solution (CSS modules, styled-components, etc.)
@@ -63,6 +60,7 @@ This template includes a minimal CSS reset. Add your styles to:
 ## Development
 
 The development server runs on `http://localhost:3000` and includes:
+
 - Hot module replacement
 - Fast refresh for React components
 - Automatic browser opening
