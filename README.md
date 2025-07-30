@@ -1,6 +1,6 @@
 # PROJECT_NAME
 
-A minimal React application built with Vite.
+A minimal React application with TypeScript built with Vite.
 
 ## Quick Start
 
@@ -10,6 +10,9 @@ npm install
 
 # Start development server
 npm run dev
+
+# Type check
+npm run type-check
 
 # Build for production
 npm run build
@@ -23,8 +26,8 @@ npm run preview
 ```
 src/
 ├── components/     # Your React components
-├── App.jsx        # Main App component
-├── main.jsx       # Application entry point
+├── App.tsx        # Main App component
+├── main.tsx       # Application entry point
 └── index.css      # Global styles
 ```
 
@@ -32,9 +35,20 @@ src/
 
 - ⚡️ Fast development with Vite
 - ⚛️ React 18 with modern features
+- 🔷 TypeScript for type safety
 - 🎨 Minimal CSS reset included
 - 📁 Clean project structure
 - 🚀 Optimized production builds
+
+## TypeScript
+
+This template includes TypeScript with strict mode enabled. Type checking is available via:
+
+```bash
+npm run type-check
+```
+
+The build process includes TypeScript compilation, ensuring type safety in production builds.
 
 ## Adding Components
 

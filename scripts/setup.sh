@@ -66,14 +66,14 @@ else
     sed -i "s/PROJECT_NAME/$PROJECT_NAME/g" public/index.html
 fi
 
-# Replace PROJECT_NAME in App.jsx
+# Replace PROJECT_NAME in App.tsx
 print_step "Updating App component..."
 if [[ "$OSTYPE" == "darwin"* ]]; then
     # macOS
-    sed -i '' "s/PROJECT_NAME/$PROJECT_NAME/g" src/App.jsx
+    sed -i '' "s/PROJECT_NAME/$PROJECT_NAME/g" src/App.tsx
 else
     # Linux
-    sed -i "s/PROJECT_NAME/$PROJECT_NAME/g" src/App.jsx
+    sed -i "s/PROJECT_NAME/$PROJECT_NAME/g" src/App.tsx
 fi
 
 # Initialize fresh git repository
