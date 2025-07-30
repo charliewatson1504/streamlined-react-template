@@ -1,6 +1,6 @@
 # PROJECT_NAME
 
-A minimal React application built with Vite.
+A minimal React application with React Router built with Vite.
 
 ## Quick Start
 
@@ -22,8 +22,13 @@ npm run preview
 
 ```
 src/
-├── components/     # Your React components
-├── App.jsx        # Main App component
+├── components/     # Reusable React components
+│   └── Navigation.jsx
+├── pages/          # Page components for routing
+│   ├── HomePage.jsx
+│   ├── AboutPage.jsx
+│   └── ContactPage.jsx
+├── App.jsx        # Main App component with routing
 ├── main.jsx       # Application entry point
 └── index.css      # Global styles
 ```
@@ -32,9 +37,23 @@ src/
 
 - ⚡️ Fast development with Vite
 - ⚛️ React 18 with modern features
-- 🎨 Minimal CSS reset included
-- 📁 Clean project structure
+- 🧭 React Router for client-side navigation
+- 🎨 Minimal CSS reset and navigation styles
+- 📁 Clean project structure with pages and components
 - 🚀 Optimized production builds
+
+## Routing
+
+This template includes React Router v6 with:
+- Home page (`/`)
+- About page (`/about`)
+- Contact page (`/contact`)
+- Navigation component with active link highlighting
+
+Add new routes by:
+1. Creating a new page component in `src/pages/`
+2. Adding the route to `src/App.jsx`
+3. Adding a navigation link to `src/components/Navigation.jsx`
 
 ## Adding Components
 
