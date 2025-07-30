@@ -1,8 +1,14 @@
 # Streamlined React Template - Usage Guide
 
-## 🎉 Your Template is Ready!
+## 🎉 Template Variants Now Available!
 
-This directory now contains a complete React template that you can push to GitHub and use for all your future projects.
+Your streamlined React template now includes multiple variants:
+
+🔹 **Main Branch** - Minimal JavaScript setup  
+🔷 **TypeScript Branch** - Full TypeScript configuration  
+🧭 **Router Branch** - React Router with navigation  
+
+Choose the variant that best fits your project needs!
 
 ## 📋 What We Built
 
@@ -84,12 +90,23 @@ npm install --save-dev eslint prettier eslint-plugin-react
 
 ### Create Template Variants
 
+✅ **Available Branches:**
+
 ```bash
-# Create branches for different setups
-git checkout -b typescript    # For TypeScript variant
-git checkout -b router       # For React Router variant
-git checkout -b tailwind     # For Tailwind CSS variant
+# TypeScript variant - Full TypeScript setup with type checking
+git clone -b typescript https://github.com/charliewatson1504/streamlined-react-template.git my-ts-project
+
+# React Router variant - Multi-page app with navigation
+git clone -b router https://github.com/charliewatson1504/streamlined-react-template.git my-router-project
+
+# Main branch - Minimal JavaScript setup
+git clone https://github.com/charliewatson1504/streamlined-react-template.git my-basic-project
 ```
+
+**Variant Features:**
+- **Main**: Minimal React + Vite setup
+- **TypeScript**: Adds TypeScript, tsconfig, type checking
+- **Router**: Adds React Router, pages, navigation component
 
 ## 📁 Current Project Structure
 
