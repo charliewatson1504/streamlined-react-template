@@ -48,7 +48,76 @@ This template includes TypeScript with strict mode enabled. Type checking is ava
 npm run type-check
 ```
 
+# PROJECT_NAME
+
+A minimal React application with TypeScript and React Router built with Vite.
+
+## Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Type check
+npm run type-check
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## Project Structure
+
+```
+src/
+├── components/     # Reusable React components
+│   └── Navigation.tsx
+├── pages/          # Page components for routing
+│   ├── HomePage.tsx
+│   ├── AboutPage.tsx
+│   └── ContactPage.tsx
+├── App.tsx        # Main App component with routing
+├── main.tsx       # Application entry point
+└── index.css      # Global styles
+```
+
+## Features
+
+- ⚡️ Fast development with Vite
+- ⚛️ React 18 with modern features
+- 🔷 TypeScript for type safety
+- 🧭 React Router for client-side navigation
+- 🎨 Minimal CSS reset and navigation styles
+- 📁 Clean project structure with pages and components
+- 🚀 Optimized production builds
+
+## TypeScript
+
+This template includes TypeScript with strict mode enabled. Type checking is available via:
+
+```bash
+npm run type-check
+```
+
 The build process includes TypeScript compilation, ensuring type safety in production builds.
+
+## Routing
+
+This template includes React Router v6 with:
+- Home page (`/`)
+- About page (`/about`)
+- Contact page (`/contact`)
+- Navigation component with active link highlighting and TypeScript types
+
+Add new routes by:
+1. Creating a new page component in `src/pages/`
+2. Adding the route to `src/App.tsx`
+3. Adding a navigation link to `src/components/Navigation.tsx`
 
 ## Adding Components
 

@@ -76,6 +76,18 @@ else
     sed -i "s/PROJECT_NAME/$PROJECT_NAME/g" src/App.tsx
 fi
 
+# Replace PROJECT_NAME in page components and navigation
+print_step "Updating page components..."
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    # macOS
+    sed -i '' "s/PROJECT_NAME/$PROJECT_NAME/g" src/pages/*.tsx
+    sed -i '' "s/PROJECT_NAME/$PROJECT_NAME/g" src/components/*.tsx
+else
+    # Linux
+    sed -i "s/PROJECT_NAME/$PROJECT_NAME/g" src/pages/*.tsx
+    sed -i "s/PROJECT_NAME/$PROJECT_NAME/g" src/components/*.tsx
+fi
+
 # Initialize fresh git repository
 print_step "Initializing fresh git repository..."
 rm -rf .git
